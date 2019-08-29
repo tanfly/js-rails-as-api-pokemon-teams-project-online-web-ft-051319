@@ -55,6 +55,28 @@ body {
     float: right;
     background-color: #E1332D;
   }
+
+  div.modal {
+    border-radius: 10px;
+    background-color: maroon;
+    color: white;
+  
+    margin: 1em;
+    padding: 1em;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  p.modal-message {
+    margin-bottom: 0;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
   
   @media only screen and (min-width: 500px) {
     main {
@@ -67,4 +89,5 @@ body {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
+
   
